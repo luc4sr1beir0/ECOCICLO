@@ -1,0 +1,86 @@
+@font-face {
+    font-family:"lexend" ;
+    src: url(font/Lexend-VariableFont_wght.ttf);
+}
+header {
+    background-image: url(img/fundo.png);
+    background-size: cover;
+    height: 500px;
+
+}
+.titulo{
+    font-family: "lexend";
+    font-size: 80px;
+    font-weight: 500;
+}
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.subtitulo{
+    font-family: "lexend";
+    font-size: 30px;
+    font-weight: 500;
+}
+body {
+    background-color: #598c38;
+}
+.imagem{
+    height: 300px;
+    justify-content: center;
+}
+.divisao{
+    color: #598c38;
+    width: 320px;
+    border-radius: 20px;
+    margin: 15px;
+}
+.display{
+    display: flex;
+    justify-content: center;
+}
+.texto{
+    font-family: "lexend";
+    font-size: 15px;
+    text-align: center;
+}
+.nome{
+    font-family:"lexend";
+    font-size: 40px;
+    background-color: #f4f3f3;
+    font-weight: 500;
+}
+.redes{
+ color: #f4f3f3;
+    font-family: "lexend";
+    font-weight: 300;
+    font-size: 24px;
+}
+.sobre{
+  background-color: #f4f3f3;
+
+}
+.sobre .nome{
+    font-family: "lexend";
+    color: #000000;
+}
+h3{
+    color: #598c38;
+    font-family: "lexend";
+    font-size: 30px;
+}
+section,footer,header {
+    padding: 0px 150px;
+}
+footer .nome{
+    background-color: #598c38;
+    color: #f4f3f3;
+}
+.sobre{
+    padding: 50px 150px;
+}
+header{
+    padding-top: 150px;
+}
